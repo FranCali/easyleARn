@@ -111,7 +111,7 @@ class BalloonViewController: UIViewController, UICollectionViewDataSource, SCNPh
             bullet.physicsBody?.categoryBitMask = BitMaskCategory.bullet.rawValue
             bullet.physicsBody?.contactTestBitMask = BitMaskCategory.target.rawValue
             bullet.runAction(SCNAction.sequence([SCNAction.wait(duration: 2), SCNAction.removeFromParentNode()]))
-            playSound(filename: "BulletFire", fileextension: "wav", volume: 1)
+            playSound(filename: "Sounds/BulletFire", fileextension: "wav", volume: 1)
         } else{
             
         }
@@ -179,7 +179,7 @@ class BalloonViewController: UIViewController, UICollectionViewDataSource, SCNPh
                 self.sceneView.scene.rootNode.addChildNode(confettiNode)
                 Target?.removeFromParentNode()
                 
-                playSound(filename: "BalloonPop", fileextension: "wav", volume: 1)
+                playSound(filename: "Sounds/BalloonPop", fileextension: "wav", volume: 1)
             }
             
         } else if nodeB.physicsBody?.categoryBitMask == BitMaskCategory.target.rawValue &&
@@ -192,14 +192,14 @@ class BalloonViewController: UIViewController, UICollectionViewDataSource, SCNPh
                 self.sceneView.scene.rootNode.addChildNode(confettiNode)
                 Target?.removeFromParentNode()
                 
-                playSound(filename: "BalloonPop", fileextension: "wav", volume: 1)
+                playSound(filename: "Sounds/BalloonPop", fileextension: "wav", volume: 1)
             }
         }
     }
     
     func isRightColor(colorLabel:String, balloonColor:UIColor) -> Bool{
         if colorsDictionary[colorLabel] == balloonColor {
-            DispatchQueue.main.async {
+            DispatchQueue.main.asyncAfter(deadline: .now()+0.6) {
                 if(!self.areAllColorsPicked()){
                     self.showColorLabel()
                 }

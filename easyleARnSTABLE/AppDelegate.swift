@@ -1,8 +1,8 @@
 //
 //  AppDelegate.swift
-//  easyleARnSTABLE
+//  StARt
 //
-//  Created by Califano Francesco on 14/03/18.
+//  Created by Califano Francesco on 07/03/18.
 //  Copyright © 2018 Califano Francesco. All rights reserved.
 //
 
@@ -12,7 +12,6 @@ import UIKit
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.

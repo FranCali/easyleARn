@@ -7,21 +7,47 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5AE966982059212D007A92DB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE966972059212D007A92DB /* AppDelegate.swift */; };
-		5AE9669A2059212D007A92DB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE966992059212D007A92DB /* ViewController.swift */; };
-		5AE9669D2059212D007A92DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5AE9669B2059212D007A92DB /* Main.storyboard */; };
-		5AE9669F2059212D007A92DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5AE9669E2059212D007A92DB /* Assets.xcassets */; };
-		5AE966A22059212D007A92DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5AE966A02059212D007A92DB /* LaunchScreen.storyboard */; };
+		5AE966BC20592434007A92DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5AE966AA20592431007A92DB /* LaunchScreen.storyboard */; };
+		5AE966BD20592434007A92DB /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5AE966AB20592431007A92DB /* Info.plist */; };
+		5AE966BE20592434007A92DB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE966AC20592431007A92DB /* ViewController.swift */; };
+		5AE966BF20592434007A92DB /* GlobalFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE966AD20592431007A92DB /* GlobalFunctions.swift */; };
+		5AE966C020592434007A92DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5AE966AE20592432007A92DB /* Assets.xcassets */; };
+		5AE966C120592434007A92DB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE966AF20592432007A92DB /* AppDelegate.swift */; };
+		5AE966C220592434007A92DB /* GolfCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE966B020592432007A92DB /* GolfCollectionViewCell.swift */; };
+		5AE966C320592434007A92DB /* BasketballCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE966B120592432007A92DB /* BasketballCollectionViewCell.swift */; };
+		5AE966C420592434007A92DB /* GamesMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE966B220592432007A92DB /* GamesMenuViewController.swift */; };
+		5AE966C520592434007A92DB /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE966B320592432007A92DB /* HomeViewController.swift */; };
+		5AE966C620592434007A92DB /* Media.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 5AE966B420592432007A92DB /* Media.scnassets */; };
+		5AE966C820592434007A92DB /* Sounds in Resources */ = {isa = PBXBuildFile; fileRef = 5AE966B620592433007A92DB /* Sounds */; };
+		5AE966C920592434007A92DB /* Fonts in Resources */ = {isa = PBXBuildFile; fileRef = 5AE966B720592433007A92DB /* Fonts */; };
+		5AE966CA20592434007A92DB /* Textures in Resources */ = {isa = PBXBuildFile; fileRef = 5AE966B820592433007A92DB /* Textures */; };
+		5AE966CB20592434007A92DB /* NerfCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE966B920592434007A92DB /* NerfCollectionViewCell.swift */; };
+		5AE966CC20592434007A92DB /* BasketController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE966BA20592434007A92DB /* BasketController.swift */; };
+		5AE966CD20592434007A92DB /* BalloonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE966BB20592434007A92DB /* BalloonViewController.swift */; };
+		5AE966CF205924A5007A92DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5AE966CE205924A4007A92DB /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		5AE966942059212D007A92DB /* easyleARnSTABLE.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = easyleARnSTABLE.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		5AE966972059212D007A92DB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5AE966992059212D007A92DB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		5AE9669C2059212D007A92DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		5AE9669E2059212D007A92DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		5AE966A12059212D007A92DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		5AE966A32059212D007A92DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5AE966A920592430007A92DB /* easyleARnSTABLE-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "easyleARnSTABLE-Bridging-Header.h"; sourceTree = "<group>"; };
+		5AE966AA20592431007A92DB /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5AE966AB20592431007A92DB /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5AE966AC20592431007A92DB /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5AE966AD20592431007A92DB /* GlobalFunctions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GlobalFunctions.swift; sourceTree = "<group>"; };
+		5AE966AE20592432007A92DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5AE966AF20592432007A92DB /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5AE966B020592432007A92DB /* GolfCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GolfCollectionViewCell.swift; sourceTree = "<group>"; };
+		5AE966B120592432007A92DB /* BasketballCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BasketballCollectionViewCell.swift; sourceTree = "<group>"; };
+		5AE966B220592432007A92DB /* GamesMenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GamesMenuViewController.swift; sourceTree = "<group>"; };
+		5AE966B320592432007A92DB /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		5AE966B420592432007A92DB /* Media.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = Media.scnassets; sourceTree = "<group>"; };
+		5AE966B620592433007A92DB /* Sounds */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Sounds; sourceTree = "<group>"; };
+		5AE966B720592433007A92DB /* Fonts */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Fonts; sourceTree = "<group>"; };
+		5AE966B820592433007A92DB /* Textures */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Textures; sourceTree = "<group>"; };
+		5AE966B920592434007A92DB /* NerfCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NerfCollectionViewCell.swift; sourceTree = "<group>"; };
+		5AE966BA20592434007A92DB /* BasketController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BasketController.swift; sourceTree = "<group>"; };
+		5AE966BB20592434007A92DB /* BalloonViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BalloonViewController.swift; sourceTree = "<group>"; };
+		5AE966CE205924A4007A92DB /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,12 +80,25 @@
 		5AE966962059212D007A92DB /* easyleARnSTABLE */ = {
 			isa = PBXGroup;
 			children = (
-				5AE966972059212D007A92DB /* AppDelegate.swift */,
-				5AE966992059212D007A92DB /* ViewController.swift */,
-				5AE9669B2059212D007A92DB /* Main.storyboard */,
-				5AE9669E2059212D007A92DB /* Assets.xcassets */,
-				5AE966A02059212D007A92DB /* LaunchScreen.storyboard */,
-				5AE966A32059212D007A92DB /* Info.plist */,
+				5AE966AF20592432007A92DB /* AppDelegate.swift */,
+				5AE966AE20592432007A92DB /* Assets.xcassets */,
+				5AE966BB20592434007A92DB /* BalloonViewController.swift */,
+				5AE966CE205924A4007A92DB /* Main.storyboard */,
+				5AE966B120592432007A92DB /* BasketballCollectionViewCell.swift */,
+				5AE966BA20592434007A92DB /* BasketController.swift */,
+				5AE966AC20592431007A92DB /* ViewController.swift */,
+				5AE966B220592432007A92DB /* GamesMenuViewController.swift */,
+				5AE966AD20592431007A92DB /* GlobalFunctions.swift */,
+				5AE966B020592432007A92DB /* GolfCollectionViewCell.swift */,
+				5AE966B920592434007A92DB /* NerfCollectionViewCell.swift */,
+				5AE966B320592432007A92DB /* HomeViewController.swift */,
+				5AE966AB20592431007A92DB /* Info.plist */,
+				5AE966AA20592431007A92DB /* LaunchScreen.storyboard */,
+				5AE966B420592432007A92DB /* Media.scnassets */,
+				5AE966B720592433007A92DB /* Fonts */,
+				5AE966B620592433007A92DB /* Sounds */,
+				5AE966B820592433007A92DB /* Textures */,
+				5AE966A920592430007A92DB /* easyleARnSTABLE-Bridging-Header.h */,
 			);
 			path = easyleARnSTABLE;
 			sourceTree = "<group>";
@@ -96,6 +135,7 @@
 				TargetAttributes = {
 					5AE966932059212D007A92DB = {
 						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0920;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -123,9 +163,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5AE966A22059212D007A92DB /* LaunchScreen.storyboard in Resources */,
-				5AE9669F2059212D007A92DB /* Assets.xcassets in Resources */,
-				5AE9669D2059212D007A92DB /* Main.storyboard in Resources */,
+				5AE966C820592434007A92DB /* Sounds in Resources */,
+				5AE966C620592434007A92DB /* Media.scnassets in Resources */,
+				5AE966BD20592434007A92DB /* Info.plist in Resources */,
+				5AE966CA20592434007A92DB /* Textures in Resources */,
+				5AE966C020592434007A92DB /* Assets.xcassets in Resources */,
+				5AE966CF205924A5007A92DB /* Main.storyboard in Resources */,
+				5AE966C920592434007A92DB /* Fonts in Resources */,
+				5AE966BC20592434007A92DB /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,31 +181,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5AE9669A2059212D007A92DB /* ViewController.swift in Sources */,
-				5AE966982059212D007A92DB /* AppDelegate.swift in Sources */,
+				5AE966CD20592434007A92DB /* BalloonViewController.swift in Sources */,
+				5AE966CC20592434007A92DB /* BasketController.swift in Sources */,
+				5AE966C320592434007A92DB /* BasketballCollectionViewCell.swift in Sources */,
+				5AE966CB20592434007A92DB /* NerfCollectionViewCell.swift in Sources */,
+				5AE966C420592434007A92DB /* GamesMenuViewController.swift in Sources */,
+				5AE966C120592434007A92DB /* AppDelegate.swift in Sources */,
+				5AE966BF20592434007A92DB /* GlobalFunctions.swift in Sources */,
+				5AE966C220592434007A92DB /* GolfCollectionViewCell.swift in Sources */,
+				5AE966C520592434007A92DB /* HomeViewController.swift in Sources */,
+				5AE966BE20592434007A92DB /* ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		5AE9669B2059212D007A92DB /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5AE9669C2059212D007A92DB /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		5AE966A02059212D007A92DB /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5AE966A12059212D007A92DB /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		5AE966A42059212D007A92DB /* Debug */ = {
@@ -274,12 +308,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = B345J2F465;
 				INFOPLIST_FILE = easyleARnSTABLE/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.table0.francali.easyleARnSTABLE;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "easyleARnSTABLE/easyleARnSTABLE-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -289,12 +326,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = B345J2F465;
 				INFOPLIST_FILE = easyleARnSTABLE/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.table0.francali.easyleARnSTABLE;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "easyleARnSTABLE/easyleARnSTABLE-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

@@ -257,7 +257,7 @@ class BasketController: UIViewController,SCNPhysicsContactDelegate, UICollection
     func playSoundByKey(key:String) {
         
         if NSLocale.preferredLanguages[0] == "it-IT" {
-            guard let url = Bundle.main.url(forResource: "ColorsIT/\(key)", withExtension: "wav") else { return}
+            guard let url = Bundle.main.url(forResource: "Sounds/ColorsIT/\(key)", withExtension: "wav") else { return}
             
             do {
                 try AVAudioSession.sharedInstance().setCategory(AVAudioSessionCategoryPlayback)
@@ -273,7 +273,7 @@ class BasketController: UIViewController,SCNPhysicsContactDelegate, UICollection
             }
             
         }else {
-            guard let url = Bundle.main.url(forResource: "ColorsEN/\(key)", withExtension: "wav") else { return}
+            guard let url = Bundle.main.url(forResource: "Sounds/ColorsEN/\(key)", withExtension: "wav") else { return}
             
             do {
                 try AVAudioSession.sharedInstance().setCategory(AVAudioSessionCategoryPlayback)

@@ -28,10 +28,7 @@ class HomeViewController: UIViewController {
         
     }
     
-    override func viewWillAppear(_ animated: Bool) {
-        print("called")
-
-    }
+    
     override func viewDidAppear(_ animated: Bool) {
         var imgArray = [UIImage]()
         imgArray.append(UIImage(named: "welcomePage-1")!)
